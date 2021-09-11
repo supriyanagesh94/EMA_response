@@ -22,10 +22,18 @@ Feature construction is performed in the featconst.py script. The script include
 2. Mean imputation of missing EMA responses 
 3. Including the variance of responses (over history)
 4. Sliding window approach to extract sequences of features of length num_past  
+5. Saving the the constructed train, val, test sequences in .pickle files 
 
 A trained LSTM model can be loaded using the scipt modelLoader.py 
 
 Hyperparameters of the attention LSTM can be set in this script after line 117  
+
+The model performance for prediction can be computed using the script modelPrediction.py. The script includes methods to perform:
+
+1. Loading the saved features from featconst.py
+2. Loading the trained model 
+3. Generating the predictions for next EMA response for each input sequence 
+4. Computing the AUROC, Accuracy, Confusion matrix for the predictions
 
 
 
