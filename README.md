@@ -17,5 +17,9 @@ Table:
 7. status: 'MISSED', 'ABANDONED_BY_USER', 'ABANDONED_BY_TIMEOUT', 'COMPLETED'
 8. user.id: integer value 
 
-Feature construction is performed in the featconst.py script. 
+Feature construction is performed in the featconst.py script. The script includes methods to perform:
+1. Data loading (EMA responses and associated data)
+2. Mean imputation of missing EMA responses 
+3. Including the variance of responses (over history)
+4. Sliding window approach to extract sequences of features of length num_past  
 
