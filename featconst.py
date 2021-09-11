@@ -22,7 +22,9 @@ import datetime
 import pickle
 import os 
 
-data = pd.read_csv('../EMAresponses_merged.csv')
+datapath = '../EMAresponses_merged.csv'
+num_past = 5
+data = pd.read_csv(datapath)
 
 ema_questions = ['enthusiastic','happy','relaxed','bored','sad','angry','nervous',
                  'restless','active','urge']
@@ -85,7 +87,6 @@ ema_answers = data[ema_questions]
 ema_answers = ema_answers.fillna(0)
 ema_answers = np.array(ema_answers)
 
-num_past = 5
 
 # IMPUTE MISSING
 for i in range(len(subject_list)):
