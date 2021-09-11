@@ -15,6 +15,7 @@ Table:
 5. Age: integer value 
 6. prompt.ts: timestamp when EMA was prompted
 7. status: 'MISSED', 'ABANDONED_BY_USER', 'ABANDONED_BY_TIMEOUT', 'COMPLETED'
+8. user.id: integer value 
 
 Feature construction is performed in the featconst.py script. 
 
