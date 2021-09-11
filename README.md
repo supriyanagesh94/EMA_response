@@ -23,3 +23,20 @@ Feature construction is performed in the featconst.py script. The script include
 3. Including the variance of responses (over history)
 4. Sliding window approach to extract sequences of features of length num_past  
 
+A trained LSTM model can be loaded using the scipt modelLoader.py 
+
+Hyperparameters of the attention LSTM can be set in this script after line 117  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
