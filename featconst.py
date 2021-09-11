@@ -3,7 +3,6 @@
 """
 @author: supriyanagesh
 
-
 Feature computation script
 """
 def convert_timestamp(this_time):
