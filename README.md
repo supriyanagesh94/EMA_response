@@ -7,23 +7,18 @@ The pipline to predict response to EMA prompts is divided into three parts:
 
 Input file: 'EMAresponses_merged.csv'
 
-| Column name  |  Acceptable values | 
-|---|---|
-| 'enthusiastic'  | 1 - 5 (Likert scale)  |
-|---|---|
-| 'gender'  | 'F','M' |  
-|---|---|
-|   |   |   
-
 The .csv file should contain EMA responses and other related information corresponding to each prompt. The column names and corresponding values are listed here. 
-1. 'enthusiastic','happy','relaxed','bored','sad','angry','nervous','restless','active','urge': 1 - 5 (likert scale)
-2. gender: 'F','M'
-3. income: 'low','mid','high','Uknown'
-4. days since quit: integer value
-5. Age: integer value 
-6. prompt.ts: timestamp when EMA was prompted
-7. status: 'MISSED', 'ABANDONED_BY_USER', 'ABANDONED_BY_TIMEOUT', 'COMPLETED'
-8. user.id: integer value 
+
+| Column name  |  Acceptable values | 
+| 'enthusiastic','happy','relaxed','bored','sad','angry','nervous','restless','active','urge'  | 1 - 5 (Likert scale)  |
+| 'gender'  | 'F','M' |  
+| 'income'  | 'low','mid','high','Uknown' |
+| 'days since quit' | integer value |
+| 'Age' | integer value |
+| 'prompt.ts'  | Unix timestamp when EMA was prompted  |
+| 'status'  | 'MISSED', 'ABANDONED_BY_USER', 'ABANDONED_BY_TIMEOUT', 'COMPLETED'  |
+| 'user.id' | integer value |
+
 
 Feature construction is performed in the featconst.py script. The script includes methods to perform:
 1. Data loading (EMA responses and associated data)
