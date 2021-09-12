@@ -11,7 +11,7 @@ The .csv file should contain EMA responses and other related information corresp
 
 | Column name  | Acceptable values  |  
 |---|---|
-| 'enthusiastic'  | 1 - 5 (Likert scale) |  
+| 'enthusiastic','happy','relaxed','bored','sad','angry','nervous','restless','active','urge'  | 1 - 5 (Likert scale) |  
 | 'gender'  | 'F','M' |  
 | 'income'  | 'low','mid','high','Uknown'  |  
 
