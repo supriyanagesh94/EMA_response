@@ -9,6 +9,12 @@ Input file: 'EMAresponses_merged.csv'
 
 The .csv file should contain EMA responses and other related information corresponding to each prompt. The column names and corresponding values are listed here. 
 
+| Column name  | Acceptable values  |  
+|---|---|
+| 'enthusiastic'  | 1 - 5 (Likert scale) |  
+| 'gender'  | 'F','M' |  
+| 'income'  | 'low','mid','high','Uknown'  |  
+
 | Column name  |  Acceptable values | 
 | 'enthusiastic','happy','relaxed','bored','sad','angry','nervous','restless','active','urge'  | 1 - 5 (Likert scale)  |
 | 'gender'  | 'F','M' |  
