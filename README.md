@@ -7,11 +7,13 @@ The pipline to predict response to EMA prompts is divided into three parts:
 
 Input file: 'EMAresponses_merged.csv'
 
-|   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+| Column name  |  Acceptable values | 
+|---|---|
+| 'enthusiastic'  | 1 - 5 (Likert scale)  |
+|---|---|
+| 'gender'  | 'F','M' |  
+|---|---|
+|   |   |   
 
 The .csv file should contain EMA responses and other related information corresponding to each prompt. The column names and corresponding values are listed here. 
 1. 'enthusiastic','happy','relaxed','bored','sad','angry','nervous','restless','active','urge': 1 - 5 (likert scale)
