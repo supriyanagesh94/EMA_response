@@ -3,7 +3,10 @@
 """
 @author: supriyanagesh
 
-Evaluate performance
+- Load the data saved using featconst.py script 
+- Loads the trained LSTM model 
+- Prediction of next EMA completion for a given input 
+- Computes the AUROC, accuracy, confusion matrix for the given X 
 """
 import gc
 from time import time
