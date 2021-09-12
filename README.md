@@ -14,11 +14,6 @@ The .csv file should contain EMA responses and other related information corresp
 | 'enthusiastic','happy','relaxed','bored','sad','angry','nervous','restless','active','urge'  | 1 - 5 (Likert scale) |  
 | 'gender'  | 'F','M' |  
 | 'income'  | 'low','mid','high','Uknown'  |  
-
-| Column name  |  Acceptable values | 
-| 'enthusiastic','happy','relaxed','bored','sad','angry','nervous','restless','active','urge'  | 1 - 5 (Likert scale)  |
-| 'gender'  | 'F','M' |  
-| 'income'  | 'low','mid','high','Uknown' |
 | 'days since quit' | integer value |
 | 'Age' | integer value |
 | 'prompt.ts'  | Unix timestamp when EMA was prompted  |
