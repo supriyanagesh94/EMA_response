@@ -3,8 +3,8 @@
 """
 @author: supriyanagesh
 
+Script to load a trained LSTM model given the model path and name 
 
-Module to load trained model script 
 """
 import gc
 from time import time
