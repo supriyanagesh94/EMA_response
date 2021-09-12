@@ -9,6 +9,9 @@ Input:
 - .csv file named 'EMAresponses_merged.csv' with the EMA responses, metadata 
 - num_past: window size used for making the prediction (integer variable)
 
+This script processes the csv file to extract sequences of length num_past and a corresponding label if the next EMA is completed/not. 
+The feature matrix (X), labels (Y), subject ids, EMA time are dumped into a pickle file 
+
 """
 def convert_timestamp(this_time):
     import time 
