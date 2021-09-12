@@ -4,6 +4,11 @@
 @author: supriyanagesh
 
 Feature computation script
+
+Input: 
+- .csv file named 'EMAresponses_merged.csv' with the EMA responses, metadata 
+- num_past: window size used for making the prediction (integer variable)
+
 """
 def convert_timestamp(this_time):
     import time 
