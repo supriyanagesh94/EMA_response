@@ -40,6 +40,11 @@ The model performance for prediction can be computed using the script modelPredi
 4. Computing the AUROC, Accuracy, Confusion matrix for the predictions
 
 
+# To generate results with a new EMA dataset 
+
+1. Get the data in a .csv file with the row corresponding to one EMA prompt. The csv file should have information as shown in the table and the exact same column names.  
+2. Save the csv file as 'EMAresponses_merged.csv' in the home directory 
+3. Run featconst.py 
 
 
 
