@@ -28,6 +28,9 @@ Feature construction is performed in the featconst.py script. The script include
 4. Sliding window approach to extract sequences of features of length num_past  
 5. Saving the the constructed train, val, test sequences in .pickle files 
 
+![](attn_lstm.jpg)
+
+
 Training an LSTM model from scratch - using the script modelTraining.py
 This script will load the data from the saved .pickle files, initialize and train an attention LSTM model
 
